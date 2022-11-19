@@ -1,6 +1,4 @@
-# Next Starter
-
-Starter template for Next.js apps
+# Next Forum
 
 ## Features
 
@@ -9,3 +7,4 @@ Starter template for Next.js apps
 - [x] Testing with Jest and React Testing Library
 - [x] Tailwind
 - [x] Path aliases
+- [x] Postgres and pgAdmin via Docker
