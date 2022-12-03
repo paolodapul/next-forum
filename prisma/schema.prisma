@@ -15,3 +15,11 @@ model User {
   email String  @unique
   name  String?
 }
+
+model Thread {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  title     String
+  body      String
+  createdAt DateTime
+}
